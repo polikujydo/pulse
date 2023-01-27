@@ -1,0 +1,19 @@
+@import 'base/variables',
+        'blocks/intro',
+        'blocks/header',
+        'blocks/advantages',
+        'blocks/title',
+        'blocks/buttons';
+* {
+    font-family: 'MuseoModerno', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
