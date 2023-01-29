@@ -1,9 +1,4 @@
-@import 'base/variables',
-        'blocks/intro',
-        'blocks/header',
-        'blocks/advantages',
-        'blocks/title',
-        'blocks/buttons';
+@import 'base/variables';
 * {
     font-family: 'MuseoModerno', sans-serif;
 }
@@ -17,3 +12,11 @@ a {
     max-width: 950px;
     margin: 0 auto;
 }
+
+@import 'blocks/intro';
+@import 'blocks/header';
+@import 'blocks/advantages';
+@import 'blocks/title';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/buttons';
