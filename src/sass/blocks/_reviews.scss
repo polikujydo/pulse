@@ -1,0 +1,33 @@
+.reviews {
+    min-height: 680px;
+    padding-bottom: 48px;
+    &__title {
+        padding-top: 80px;
+    }
+    &__item {
+        display: flex;
+        padding-bottom: 60px;
+    }
+    &__text {
+        margin-left: 55px;
+    }
+    &__writter {
+        font-weight: 700;
+        font-size: 18px;
+    }
+    &__maraphones {
+        font-weight: 500;
+        font-size: 14px;
+        margin-top: -4px;
+        color: #646464;
+    }
+    &__descr {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+    }
+    &__img {
+        width: 169px;
+        height: 169px
+    }
+}
